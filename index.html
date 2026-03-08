@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Stylesheet.css">
+    <link rel="stylesheet" href="./boostrap/icons/font/bootstrap-icons.css">
+    <meta name="description"
+        content="RayvenX – Myanmar’s No.1 motorcycle dealership for BMW, KTM, Kawasaki, Yamaha. Test rides and premium bikes.">
+    <meta name="keywords" content="Motorcycles Myanmar, BMW Bikes, KTM Myanmar, Kawasaki Bikes">
+    <link rel="preload" as="image" href="./Images/KTM 2090 super dukes.jpg">
+
+</head>
+
+<body>
+    <script>
+        window.addEventListener("load", function () {
+            document.getElementById("loader").style.display = "none";
+        });
+
+
+    </script>
+    <div id="loader">
+        <h1>RAYVENX</h1>
+    </div>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./Images/1.png" alt="RayvenX" height="40">
+            </a>
+
+            <!-- Hamburger Button -->
+            <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <!-- Search -->
+                <form class="d-flex mx-auto my-2 my-lg-0">
+                    <input class="form-control me-2"  type="search" placeholder="Search bikes">
+                </form>
+
+                <!-- Right Icons -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-geo-alt"></i> Dealer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-door-open"></i> Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Cart.html"><i class="bi bi-cart-check"></i> Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar-bottom">
+
+            <ul class="menu">
+                <li><a href="index.html"><i class="bi bi-house"></i><span>Home</span></a></li>
+
+                <li class="dropdown">
+                    <a href="#"><i class="bi bi-grid"></i><span>Garage</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="YAHAMA_page.html">YAHAMA</a></li>
+                        <li><a href="BMW_page.html">BMW</a></li>
+                        <li><a href="KAWASAKI_page.html">KAWASAKI</a></li>
+                        <li><a href="ROYAL_page.html">ROYAL</a></li>
+                        <li><a href="KTM_page.html">KTM</a></li>
+                        <li><a href="SUZUKI_page.html">SUZUKI</a></li>
+                        <hr>
+                        <li><a href="Garage.html">ViewAll</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="About_Us.html"><i class="bi bi-headset"></i><span>Contact</span></a></li>
+                <li><a href="Cart.html"><i class="bi bi-cart"></i><span>Cart</span></a></li>
+                <li><a href="Parts_Accessories.html"><i class="bi bi-gear"></i><span>Parts</span></a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Header -->
+
+
+
+    <!-- slide -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Images/KTM 2090 super dukes.jpg" loading="lazy" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h3>KTM 2090 super dukes</h3>
+                    <p>Equipped with a 1350 cc V-twin engine, the KTM 1390 Super Duke R produces a thrilling 190 PS of
+                        unmatched power.</p>
+                    <a href="Garage.html" class="btn btn-danger mt-3">Explore Bikes</a>
+                    <a href="Garage.html" class="btn btn-outline-light mt-3">Book Test Ride</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/Kawasaki ninija.jpg" loading="lazy" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h3>Kawasaki ninija</h3>
+                    <p>The Kawasaki Ninja ZX-6R features a 636 cc liquid-cooled inline-four engine delivering
+                        approximately 124 PS of maximum power.</p>
+                    <a href="Garage.html" class="btn btn-danger mt-3">Explore Bikes</a>
+                    <a href="Garage.html" class="btn btn-outline-light mt-3">Book Test Ride</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/Ninja 400 ABS.jpg" loading="lazy" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h3>Ninja 400 ABS</h3>
+                    <p>The Kawasaki Ninja 400 ABS is powered by a 399 cc liquid-cooled parallel-twin engine that
+                        produces approximately 49 hp of engine power.</p>
+                    <a href="Garage.html" class="btn btn-danger mt-3">Explore Bikes</a>
+                    <a href="Garage.html" class="btn btn-outline-light mt-3">Book Test Ride</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/White Yahama YZF R1.jpg" loading="lazy" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h3>White Yahama YZF R1</h3>
+                    <p>The Yamaha YZF-R1 is powered by a 998 cc liquid-cooled inline-four engine that produces up to 200
+                        hp of peak power.</p>
+                    <a href="Garage.html" class="btn btn-danger mt-3">Explore Bikes</a>
+                    <a href="Garage.html" class="btn btn-outline-light mt-3">Book Test Ride</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/BMW black R100RT.jpg" loading="lazy" class="d-block w-100" alt="...">
+                <div class="carousel-caption ">
+                    <h3>BMW black R100RT</h3>
+                    <p>The BMW R100RT is powered by a 980 cc air-cooled boxer-twin engine that produces approximately 70
+                        hp of peak power.</p>
+                    <a href="Garage.html" class="btn btn-danger mt-3">Explore Bikes</a>
+                    <a href="Garage.html" class="btn btn-outline-light mt-3">Book Test Ride</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./Images/BMW S1000RR.jpg" loading="lazy" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h3>TBMW S1000RR</h3>
+                    <p>The BMW S1000RR is powered by a 999cc liquid-cooled inline-four engine that produces up to
+                        205hp of peak power.</p>
+                    <a href="Garage.html" class="btn btn-danger mt-3">Explore Bikes</a>
+                    <a href="Garage.html" class="btn btn-outline-light mt-3">Book Test Ride</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Slide -->
+
+
+
+    <!-- Bike Opction -->
+    <br><br><br>
+    <!-- ===== CLASSES OF MOTORCYCLES ===== -->
+
+    <section class="bike-classes container my-5">
+
+        <h2 class="section-title">Classes of Motorcycles</h2>
+
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="class-card">
+                    <img src="./Images/Race Track.jpg">
+                    <div class="overlay">
+                        <h5>Power Sports</h5>
+                        <a href="./SUPERSPORTS.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="class-card">
+                    <img src="./Images/Royal Road.jpg">
+                    <div class="overlay">
+                        <h5>Touring</h5>
+                        <a href="./Royal_adventure.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="class-card">
+                    <img src="./Images/The city.jpg">
+                    <div class="overlay">
+                        <h5>City Ride</h5>
+                        <a href="./HYPER_NAKED.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="class-card">
+                    <img src="./Images/Mountain.jpg">
+                    <div class="overlay">
+                        <h5>Off Road</h5>
+                        <a href="./OFF-road.html">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Bike Opction -->
+
+    <!-- Service Sections -->
+    <br>
+    <section class="services-section text-center">
+        <h2>Our Services</h2>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-3 col-6 mb-4">
+                    <i class="bi bi-bicycle"></i>
+                    <h5>Test Ride</h5>
+                    <p>Experience the ride before you decide</p>
+                </div>
+
+                <div class="col-md-3 col-6 mb-4">
+                    <i class="bi bi-tools"></i>
+                    <h5>Servicing</h5>
+                    <p>Certified technicians & genuine parts</p>
+                </div>
+
+                <div class="col-md-3 col-6 mb-4">
+                    <i class="bi bi-gear"></i>
+                    <h5>Customization</h5>
+                    <p>Build a bike that matches your style</p>
+                </div>
+
+                <div class="col-md-3 col-6 mb-4">
+                    <i class="bi bi-cash"></i>
+                    <h5>Easy Financing</h5>
+                    <p>Flexible EMI & payment options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Service Sections -->
+
+
+    <!-- Line Up -->
+    <section class="lineup">
+
+        <!-- Radio Inputs -->
+        <input type="radio" name="bike" id="cruiser" checked>
+        <input type="radio" name="bike" id="bagger">
+        <input type="radio" name="bike" id="touring">
+        <input type="radio" name="bike" id="elite">
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <label for="cruiser">SPORT-BIKES</label>
+            <label for="bagger">ROYAL-BIKES</label>
+            <label for="touring">CITY-BIKES</label>
+            <label for="elite">MOUNTAIN-BIKES</label>
+        </div>
+
+        <!-- Bikes -->
+        <div class="bikes">
+            <div class="bike cruiser">
+                <h1>CHALLENGER</h1>
+                <div id="bikeCarousel" class="carousel slide" data-bs-ride="false">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="./Images/kawasaki Ninja H2 SX.png" loading="lazy"
+                                class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/PowerSport 2.png" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/Ducati V2.png" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/Suzuki 2.png" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#bikeCarousel"
+                        data-bs-slide="prev">
+                        <img src="./Images/dark_left_arrow.png" alt="Previous" style="width:40px; height:40px;">
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#bikeCarousel"
+                        data-bs-slide="next">
+                        <img src="./Images/Right_dark_arrow.webp" alt="Next" style="width:40px; height:40px;">
+                    </button>
+                </div>
+            </div>
+
+            <div class="bike bagger">
+                <h1>ROYALMASTER</h1>
+                <div id="cruiserCarousel" class="carousel slide" data-bs-ride="false">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="./Images/BMW R12 2025.webp" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/BMW R12 2025 2.webp" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/BMW R12 2025 3.webp" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/BMW R12 2025 4.webp" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cruiserCarousel"
+                        data-bs-slide="prev">
+                        <img src="./Images/dark_left_arrow.png" alt="Previous" style="width:40px; height:40px;">
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#cruiserCarousel"
+                        data-bs-slide="next">
+                        <img src="./Images/Right_dark_arrow.webp" alt="Next" style="width:40px; height:40px;">
+                    </button>
+                </div>
+            </div>
+
+            <div class="bike touring">
+                <h1>ROADMASTER</h1>
+                <div id="baggerCarousel" class="carousel slide" data-bs-ride="false">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="./Images/Kawasaki-Z400.png" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/Naked bike1.png" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/Kawasaki-Z-H2.png" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/Kawasaki Z650.png" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#baggerCarousel"
+                        data-bs-slide="prev">
+                        <img src="./Images/dark_left_arrow.png" alt="Previous" style="width:40px; height:40px;">
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#baggerCarousel"
+                        data-bs-slide="next">
+                        <img src="./Images/Right_dark_arrow.webp" alt="Next" style="width:40px; height:40px;">
+                    </button>
+                </div>
+            </div>
+
+            <div class="bike elite">
+                <h1>OFFMASTER</h1>
+                <div id="eliteCarousel" class="carousel slide" data-bs-ride="false">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="./Images/KTM-300.png" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/KTM 450.avif" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/Naked bike5.webp" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./Images/KTM 250.webp" loading="lazy" class="d-block mx-auto img-fluid">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#eliteCarousel"
+                        data-bs-slide="prev">
+                        <img src="./Images/dark_left_arrow.png" alt="Previous" style="width:40px; height:40px;">
+                    </button>
+
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#eliteCarousel"
+                        data-bs-slide="next">
+                        <img src="./Images/Right_dark_arrow.webp" alt="Next" style="width:40px; height:40px;">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Bike -->
+    <!-- Line Up -->
+    <br><br><br><br><br>
+    <!-- Recentily Launched -->
+    
+    <!-- ===== RECENTLY LAUNCHED ===== -->
+
+    <section class="recent-launch container my-5">
+
+        <h2 class="section-title text-center mb-4">Recently Launched</h2>
+
+        <div class="row g-4">
+
+            <!-- CARD -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="launch-card">
+                    <img src="./Images/BMW R12 2025 real.webp">
+                    <h6>BMW R12 2025</h6>
+                    <span>$5,200 USD</span>
+                    <a href="Garage.html">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="launch-card">
+                    <img src="./Images/BMW R 1300 GS 2025 2.avif">
+                    <h6>BMW R1300 GS</h6>
+                    <span>$22,745 USD</span>
+                    <a href="Garage.html">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="launch-card">
+                    <img src="./Images/kawasaki Ninja 1100SX DR 2025.webp">
+                    <h6>Kawasaki 1100SX</h6>
+                    <span>$15,539 USD</span>
+                    <a href="Garage.html">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="launch-card">
+                    <img src="./Images/Kawasaki Ninja ZX-14R SE 2025.webp">
+                    <h6>Kawasaki ZX-14R</h6>
+                    <span>$17,599 USD</span>
+                    <a href="Garage.html">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="launch-card">
+                    <img src="./Images/KTM 1290 SUPER S 2024 2.webp">
+                    <h6>KTM 1290 Super</h6>
+                    <span>$15,799 USD</span>
+                    <a href="Garage.html">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="launch-card">
+                    <img src="./Images/KTM 1290 SUPER S 2024 3.webp">
+                    <h6>KTM 690 Enduro</h6>
+                    <span>$12,999 USD</span>
+                    <a href="Garage.html">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="launch-card">
+                    <img src="./Images/Yahama YZF-R1M.jpg">
+                    <h6>Yamaha R1M</h6>
+                    <span>$5,499 USD</span>
+                    <a href="Garage.html">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="launch-card">
+                    <img src="./Images/Yahama MT-07HO Y-AMT.jpg">
+                    <h6>Yamaha MT-07</h6>
+                    <span>$17,599 USD</span>
+                    <a href="Garage.html">Explore</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Recentily Launched -->
+    <br><br>
+    <!-- Trust View -->
+    <section class="testimonials-section">
+        <div class="container text-center">
+            <h2>What Our Riders Say</h2>
+            <p class="mb-5">Trusted by thousands of motorcycle enthusiasts</p>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <p>
+                            “Best motorcycle dealership in Myanmar.
+                            The test ride experience was amazing!”
+                        </p>
+                        <h5>Aung Min</h5>
+                        <span>Yangon</span>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <p>
+                            “Professional staff and premium bikes.
+                            I bought my BMW from RayvenX with confidence.”
+                        </p>
+                        <h5>Kyaw Zin</h5>
+                        <span>Mandalay</span>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card">
+                        <p>
+                            “Great service, genuine parts, and friendly team.
+                            Highly recommended!”
+                        </p>
+                        <h5>Thiri Aye</h5>
+                        <span>Nay Pyi Taw</span>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-section">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3"><i class="bi bi-patch-check-fill"></i> Authorized Dealer</div>
+                <div class="col-md-3"><i class="bi bi-patch-check-fill"></i> 10,000+ Riders</div>
+                <div class="col-md-3"><i class="bi bi-patch-check-fill"></i> Free Test Ride</div>
+                <div class="col-md-3"><i class="bi bi-patch-check-fill"></i> Genuine Parts</div>
+            </div>
+        </div>
+    </section>
+    <!-- trust View -->
+
+    <!-- Logo and about company -->
+    <div class="container my-5">
+        <div class="row align-items-center">
+
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <img src="./Images/1.png" loading="lazy" alt="RayvenX" class="img-fluid brand-img">
+            </div>
+
+            <div class="col-lg-8 text-center text-lg-start">
+
+                <p class="welcome-text">Welcome to</p>
+
+                <h1 class="brand-name">RAYVENX</h1>
+
+                <h4 class="brand-tagline">
+                    Myanmar No.1 Motorcycle Sales, Test Riding & Dealership
+                </h4>
+
+
+                <div class="rating my-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <span class="rating-text">4.8 / 5 (2,300+ Riders)</span>
+                </div>
+
+                <p class="brand-desc">
+                    RayvenX is one of Myanmar's most established and iconic motorcycle dealerships
+                    with a proud 100-year history. Our original store is located in Hornsby,
+                    servicing Myanmar’s North, while our second store at St Peters serves riders
+                    across the CBD and Southern regions.
+                    <br><br>
+                    Whether you're here to explore, test ride, or talk bikes — you're always welcome.
+                    Like you, we live to ride.
+                </p>
+
+                <a href="About_Usreal.html" class="rayven-btn">
+                    Explore More About Us
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Logo and about company -->
+
+    <BR>
+
+    <section class="explore-section">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="explore-video">
+            <source src="./videos/royal_bike_test.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Overlay Content -->
+        <div class="explore-content">
+            <h2>Let's Explore With Us</h2>
+            <p>
+                You’ve only scratched the surface.
+                More bikes. More power. More adventures await.
+            </p>
+
+            <a href="Garage.html" class="explore-more-btn">
+                Explore More...
+            </a>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <div class="backtotop">
+        <a href="#"> Back To Top </a>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- Brand -->
+            <div class="footer-box">
+                <h2 class="footer-logo">RayvenX</h2>
+                <p>
+                    RayvenX is Myanmar’s trusted motorcycle dealership.
+                    Discover premium bikes, test rides, and a riding lifestyle
+                    built for true enthusiasts.
+                </p>
+            </div>
+
+            <!-- Office -->
+            <div class="footer-box">
+                <h3>Office</h3>
+                <p>
+                    ITPL Road<br>
+                    Yangon, Myanmar<br>
+                    info@rayvenx.com
+                </p>
+                <p class="footer-contact">+95 123 456 789</p>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-box">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Garage.html">Bikes</a></li>
+                    <li><a href="Cart.html">Carts</a></li>
+                    <li><a href="About_Us.html">About Us</a></li>
+                    <li><a href="Parts_Accessories.html">Parts and Accessories</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button>&rarr;</button>
+                </div>
+
+                <div class="footer-social">
+                    <div class="icon">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 RayvenX Motorcycles. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <!-- footer -->
+
+
+    <script src="./js/bootstrap.bundle.min.js">
+    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Motorcycles | RayvenX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Stylesheet.css">
+    <link rel="stylesheet" href="./boostrap/icons/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./Images/1.png" alt="RayvenX" height="40">
+            </a>
+
+            <!-- Hamburger Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <!-- Search -->
+                <form class="d-flex mx-auto my-2 my-lg-0 search-box">
+                    <div class="search-wrapper">
+                        <input class="form-control me-2" id="searchinput" type="search" placeholder="Search bikes">
+                        <div id="suggestions"></div>
+                    </div>
+                </form>
+                <p id="noresult" style="display:none; color:red; text-align:center;">No bikes found!</p>
+
+                <!-- Right Icons -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-geo-alt"></i> Dealer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-door-open"></i> Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-cart-check"></i> Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <nav class="navbar-bottom">
+
+            <ul class="menu">
+                <li><a href="index.html"><i class="bi bi-house"></i><span>Home</span></a></li>
+
+                <li class="dropdown">
+                    <a href="#"><i class="bi bi-grid"></i><span>Garage</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="YAHAMA_page.html">YAHAMA</a></li>
+                        <li><a href="BMW_page.html">BMW</a></li>
+                        <li><a href="KAWASAKI_page.html">KAWASAKI</a></li>
+                        <li><a href="ROYAL_page.html">ROYAL</a></li>
+                        <li><a href="KTM_page.html">KTM</a></li>
+                        <li><a href="SUZUKI_page.html">SUZUKI</a></li>
+                        <hr>
+                        <li><a href="Garage.html">ViewAll</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="About_Us.html"><i class="bi bi-headset"></i><span>Contact</span></a></li>
+                <li><a href="Cart.html"><i class="bi bi-cart"></i><span>Cart</span></a></li>
+                <li><a href="Parts_Accessories.html"><i class="bi bi-gear"></i><span>Parts</span></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="explore-section">
+
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="explore-video">
+            <source src="./videos/MotorBike video.mp4" type="video/mp4">
+        </video>
+
+
+
+        <!-- Overlay Content -->
+        <div class="explore-content">
+            <h2>MOTORCYCLES</h2>
+            <p>
+                Every ride tells a story.
+                Find the motorcycle that matches your style, your road, and your next adventure.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="brand-section container-fluid py-5">
+        <div class="row justify-content-center g-4">
+
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="brand-card">
+                    <img src="./Images/Yahama logo.png" alt="Yamaha">
+                    <h5>YAMAHA</h5>
+                    <a href="YAHAMA_page.html" class="btn btn-outline-danger">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="brand-card">
+                    <img src="./Images/BMW logo.jpg" alt="BMW">
+                    <h5>BMW</h5>
+                    <a href="BMW_page.html" class="btn btn-outline-danger">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="brand-card">
+                    <img src="./Images/kawasaki-logo.png" alt="Kawasaki">
+                    <h5>KAWASAKI</h5>
+                    <a href="KAWASAKI_page.html" class="btn btn-outline-danger">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="brand-card">
+                    <img src="./Images/Royal logo.webp" alt="Royal">
+                    <h5>ROYAL</h5>
+                    <a href="ROYAL_page.html" class="btn btn-outline-danger">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="brand-card">
+                    <img src="./Images/KTM logo.jpg" alt="KTM">
+                    <h5>KTM</h5>
+                    <a href="KTM_page.html" class="btn btn-outline-danger">Explore</a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="brand-card">
+                    <img src="./Images/Suzuki logo.png" alt="Suzuki">
+                    <h5>SUZUKI</h5>
+                    <a href="SUZUKI_page.html" class="btn btn-outline-danger">Explore</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- PAGE TITLE -->
+    <section class="products-title">
+        <h1>MOTORCYCLES</h1>
+    </section>
+
+    <div class="container-fluid products-wrapper">
+        <div class="row">
+
+            <!-- LEFT FILTER -->
+            <aside class="col-lg-2 filter-panel">
+                <h4>FILTER</h4>
+
+                <a href="Garage.html" class="filter-link active">SHOW ALL</a>
+
+                <div class="filter-group">
+                    <h6>SUBCATEGORY</h6>
+                    <a href="SUPERSPORTS.html">SUPERSPORT</a>
+                    <a href="HYPER_NAKED.html">HYPER NAKED</a>
+                    <a href="Royal_adventure.html">ROYAL</a>
+                    <a href="OFF-road.html">OFF_ROAD</a>
+                    <a href="SCOOTER.html">SCOOTER</a>
+                </div>
+            </aside>
+
+
+            <!-- PRODUCT GRID -->
+            <main class="col-lg-10 products-grid">
+                <div class="row">
+
+                    <!-- PRODUCT CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // ROYAL</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/2026-IDN-Red-SportScoutRTT.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Sport Scout Sixty</h5>
+                            <p class="price">$11,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // ROYAL</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/2026-IND-BlackSmokeLimited.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Scout Sixty Classic</h5>
+                            <p class="price">$12,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // ROYAL</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/2026-IND-SoutbobberSixty.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5> Scout Sixty Bobber</h5>
+                            <p class="price">$9,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- PRODUCT CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // NINJA</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/Ninja 400 ABS 2.avif" loading="lazy" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Ninja 400 ABS</h5>
+                            <p class="price">$25,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // SUZUKI</span>
+                            <div class="bike-image">
+                                <img src="./Images/suzuki gsx-r1000.webp" alt="Tenere 700">
+                            </div>
+                            <hr>
+                            <h5>suzuki gsx-r1000</h5>
+                            <p class="price">$15,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+                    </div>
+
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KTM</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/KTM 2090 super dukes2.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>KTM 2090 super dukes</h5>
+                            <p class="price">$10,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+                    <!-- PRODUCT CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 //KAWASAKI NINJA</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/Kawasaki Ninja ZX-6R.jpg" loading="lazy" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Kawasaki Ninja ZX-6R</h5>
+                            <p class="price">$20,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // YAHAMA YZF</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/Yamaha YZF-R1.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Yamaha YZF-R1</h5>
+                            <p class="price">$10,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // BMW R100RT</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/BMW R100RT.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>BMW R100RT</h5>
+                            <p class="price">$5,700 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- PRODUCT CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KAWASAKI</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/kawasaki Z400.jpg" loading="lazy" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>kawasaki Z400</h5>
+                            <p class="price">$10,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KAWASAKI</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/kawasaki Z400 2.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>kawasaki Z400</h5>
+                            <p class="price">$18,999 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KAWASAKI</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/Kawasaki Z900.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Kawasaki Z900</h5>
+                            <p class="price">$5,700 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KTM</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/KTM EXC.webp" loading="lazy" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>KTM EXC</h5>
+                            <p class="price">$14,600 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KTM</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/KTM 450.avif" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>KTM 450</h5>
+                            <p class="price">$12,149 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KTM</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/Naked bike5.webp" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>KTM 390</h5>
+                            <p class="price">$15,700 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KTM</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/KTM-300.png" loading="lazy" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>KTM 300</h5>
+                            <p class="price">$13,600 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // YAHAMA</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/YZF-R9.avif" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>YZF-R9</h5>
+                            <p class="price">$12,499 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // BMW</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/BMW F 900 XR.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>BMW F 900 XR</h5>
+                            <p class="price">$15,215 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KAWASAKI</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/Kawasaki Vulcan S.png" loading="lazy" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Kawasaki Vulcan S</h5>
+                            <p class="price">$23,600 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // Royal</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/Royal Hunter 350.avif" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Royal Hunter 350</h5>
+                            <p class="price">$21,499 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KTM</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/KTM 1290 Super Duke GT.png" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>KTM 1290 Super GT</h5>
+                            <p class="price">$15,215 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // SUZUKI</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/GSX-R1100.jpg" loading="lazy" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5> GSX-R1100</h5>
+                            <p class="price">$13,600 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // YAHAMA</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/YZF-R15M.avif" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>YZF-R15M</h5>
+                            <p class="price">$19,499 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // KTM</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/Kawasaki Ninja ZX-10R.png" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>Kawasaki Ninja ZX-10R</h5>
+                            <p class="price">$25,215 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+                        <span class="page active">1</span>
+                        <a href="Garage2.html">2</a>
+                        <a href="Garage3.html">3</a>
+                        <a href="#" class="next">&gt;</a>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+    </div>
+    <hr>
+    <br>
+
+    <h1 class="softr text-center">Special Offers from the RAYVENX </h1>
+    <section class="test-ride-section">
+
+        <h2 class="section-title">Experience the Ride</h2>
+        <p class="section-subtitle">
+            Watch real test rides and book your own experience today.
+        </p>
+
+        <div class="test-ride-layout">
+
+            <!-- VIDEOS -->
+            <div class="video-grid">
+
+                <div class="video-card" style="width: 250px; height: 250px;">
+                    <video src="./videos/Test Riding.mp4" controls></video>
+                    <h4>Ténéré 700 – Adventure Ride</h4>
+                </div>
+
+                <div class="video-card" style="width: 250px; height: 250px;">
+                    <video src="./videos/Test Riding 2.mp4" controls></video>
+                    <h4>Street Performance Test Ride</h4>
+                </div>
+
+                <div class="video-card" style="width: 250px; height: 250px;">
+                    <video src="./videos/Test Riding 3.mp4" controls></video>
+                    <h4>Touring Comfort Experience</h4>
+                </div>
+                <div class="test-ride-testimonial">
+                    <p class="quote">
+                        “The test ride experience helped me choose the perfect bike.
+                        The booking process was simple, and the ride exceeded my expectations.”
+                    </p>
+                    <span class="author">— Alex R., Adventure Rider</span>
+                </div>
+
+            </div>
+
+
+            <!-- FORM -->
+            <div class="booking-form">
+                <h3>Book a Test Ride</h3>
+
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="tel" placeholder="Phone Number" required>
+
+                    <select required>
+                        <option value="">Select Bike Model</option>
+                        <option>Ténéré 700</option>
+                        <option>MT Series</option>
+                        <option>R Series</option>
+                        <option>Touring</option>
+                    </select>
+
+                    <input type="date" required>
+
+                    <button type="submit">BOOK NOW</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <div class="backtotop">
+        <a href="#"> Back To Top </a>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- Brand -->
+            <div class="footer-box">
+                <h2 class="footer-logo">RayvenX</h2>
+                <p>
+                    RayvenX is Myanmar’s trusted motorcycle dealership.
+                    Discover premium bikes, test rides, and a riding lifestyle
+                    built for true enthusiasts.
+                </p>
+            </div>
+
+            <!-- Office -->
+            <div class="footer-box">
+                <h3>Office</h3>
+                <p>
+                    ITPL Road<br>
+                    Yangon, Myanmar<br>
+                    info@rayvenx.com
+                </p>
+                <p class="footer-contact">+95 123 456 789</p>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-box">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Garage.html">Bikes</a></li>
+                    <li><a href="Cart.html">Carts</a></li>
+                    <li><a href="About_Us.html">About Us</a></li>
+                    <li><a href="Parts_Accessories.html">Parts and Accessories</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button>&rarr;</button>
+                </div>
+
+                <div class="footer-social">
+                    <div class="icon">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 RayvenX Motorcycles. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <!-- footer -->
+
+
+    <!-- Load Bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom search script -->
+    <script>
+        const searchInput = document.getElementById("searchinput");
+        const bikes = document.querySelectorAll(".products-grid .col-lg-4");
+        const suggestionBox = document.getElementById("suggestions");
+        const noResult = document.getElementById("noresult");
+
+        searchInput.addEventListener("keyup", function () {
+            const filter = searchInput.value.toLowerCase();
+            suggestionBox.innerHTML = "";
+            suggestionBox.style.display = "none";
+            let visibleCount = 0;
+
+            bikes.forEach(function (bike) {
+                const name = bike.querySelector(".bike-card h5").textContent.toLowerCase();
+                const brand = bike.querySelector(".bike-card .bike-meta").textContent.toLowerCase();
+
+                if (name.includes(filter) || brand.includes(filter)) {
+                    bike.classList.remove("hidden");
+                    visibleCount++;
+                } else {
+                    bike.classList.add("hidden");
+                }
+
+                if (name.includes(filter) && filter !== "") {
+                    const div = document.createElement("div");
+                    div.classList.add("suggestion-item");
+                    div.textContent = bike.querySelector("h5").textContent;
+
+                    div.addEventListener("click", function () {
+                        searchInput.value = div.textContent;
+                        suggestionBox.innerHTML = "";
+                        suggestionBox.style.display = "none";
+
+                        bikes.forEach(function (b) {
+                            const bikeName = b.querySelector("h5").textContent.toLowerCase();
+                            if (bikeName.includes(div.textContent.toLowerCase())) {
+                                b.classList.remove("hidden");
+                            } else {
+                                b.classList.add("hidden");
+                            }
+                        });
+                    });
+
+                    suggestionBox.appendChild(div);
+                    suggestionBox.style.display = "block";
+                }
+            });
+
+            if (visibleCount === 0) {
+                noResult.style.display = "block";
+            } else {
+                noResult.style.display = "none";
+            }
+        });
+
+        // Close suggestions when clicking outside
+        document.addEventListener("click", function (e) {
+            if (!e.target.closest(".search-box")) {
+                suggestionBox.innerHTML = "";
+            }
+        });
+
+        const buyButtons = document.querySelectorAll('.explore-btn');
+
+        buyButtons.forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent default link behavior
+
+                const bikeCard = btn.closest('.bike-card');
+                const name = bikeCard.querySelector('h5').textContent;
+                const meta = bikeCard.querySelector('.bike-meta').textContent;
+                const priceText = bikeCard.querySelector('.price').textContent.replace(/[^0-9.]/g, '');
+                const price = parseFloat(priceText);
+                const imgSrc = bikeCard.querySelector('img').getAttribute('src');
+
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                cart.push({ name, meta, price, imgSrc });
+                localStorage.setItem('cart', JSON.stringify(cart));
+
+                // Create notification element
+                let notification = document.createElement('div');
+                notification.textContent = '✅ Your bike is now in the cart!';
+                notification.style.position = 'fixed';
+                notification.style.bottom = '20px';
+                notification.style.right = '20px';
+                notification.style.padding = '15px 25px';
+                notification.style.background = '#28a745';
+                notification.style.color = 'white';
+                notification.style.fontWeight = '700';
+                notification.style.borderRadius = '8px';
+                notification.style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
+                notification.style.zIndex = '9999';
+                notification.style.opacity = '0';
+                notification.style.transition = 'opacity 0.5s';
+
+                document.body.appendChild(notification);
+
+                // Fade in
+                setTimeout(() => {
+                    notification.style.opacity = '1';
+                }, 50);
+
+                // Fade out and remove after 2.5 seconds
+                setTimeout(() => {
+                    notification.style.opacity = '0';
+                    setTimeout(() => notification.remove(), 500);
+                }, 2500);
+            });
+        });
+
+        
+    </script>
+
+</body>
+
+</html>

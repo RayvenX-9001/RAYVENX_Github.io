@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | RayvenX</title>
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Stylesheet.css">
+    <link rel="stylesheet" href="./boostrap/icons/font/bootstrap-icons.css">
+   
+</head>
+<body>
+
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./Images/1.png" alt="RayvenX" height="40">
+            </a>
+
+            <!-- Hamburger Button -->
+            <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <!-- Search -->
+                <form class="d-flex mx-auto my-2 my-lg-0">
+                    <input class="form-control me-2" type="search" placeholder="Search bikes">
+                </form>
+
+                <!-- Right Icons -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-geo-alt"></i> Dealer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-door-open"></i> Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Cart.html"><i class="bi bi-cart-check"></i> Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar-bottom">
+
+            <ul class="menu">
+                <li><a href="index.html"><i class="bi bi-house"></i><span>Home</span></a></li>
+
+                <li class="dropdown">
+                    <a href="#"><i class="bi bi-grid"></i><span>Garage</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="YAHAMA_page.html">YAHAMA</a></li>
+                        <li><a href="BMW_page.html">BMW</a></li>
+                        <li><a href="KAWASAKI_page.html">KAWASAKI</a></li>
+                        <li><a href="ROYAL_page.html">ROYAL</a></li>
+                        <li><a href="KTM_page.html">KTM</a></li>
+                        <li><a href="SUZUKI_page.html">SUZUKI</a></li>
+                        <hr>
+                        <li><a href="Garage.html">ViewAll</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="About_Us.html"><i class="bi bi-headset"></i><span>Contact</span></a></li>
+                <li><a href="Cart.html"><i class="bi bi-cart"></i><span>Cart</span></a></li>
+                <li><a href="Parts_Accessories.html"><i class="bi bi-gear"></i><span>Parts</span></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="cart-page">
+        <div class="cart-header">
+            <h1>Review your ride before checkout</h1>
+            <span class="cart-tagline">Performance checkout enabled</span>
+        </div>
+
+        <div class="cart-layout">
+            <!-- LEFT: CART ITEMS -->
+            <div class="cart-items">
+                
+            </div>
+            <div id="empty-cart" style="display:none; text-align:center; margin-top:20px;">
+                <h3>Your cart is empty</h3>
+            </div>
+
+            <!-- RIGHT: SUMMARY -->
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="subtotal">$0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax (5%)</span>
+                    <span id="tax">$0</span>
+                </div>
+                <hr>
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span id="total">$0</span>
+                </div>
+                <button class="checkout-btn">PROCEED TO CHECKOUT →</button>
+                <small class="secure-note">🔒 Secure checkout guaranteed</small>
+            </div>
+        </div>
+    </section>
+
+    <div class="backtotop">
+        <a href="#"> Back To Top </a>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- Brand -->
+            <div class="footer-box">
+                <h2 class="footer-logo">RayvenX</h2>
+                <p>
+                    RayvenX is Myanmar’s trusted motorcycle dealership.
+                    Discover premium bikes, test rides, and a riding lifestyle
+                    built for true enthusiasts.
+                </p>
+            </div>
+
+            <!-- Office -->
+            <div class="footer-box">
+                <h3>Office</h3>
+                <p>
+                    ITPL Road<br>
+                    Yangon, Myanmar<br>
+                    info@rayvenx.com
+                </p>
+                <p class="footer-contact">+95 123 456 789</p>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-box">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Garage.html">Bikes</a></li>
+                    <li><a href="Cart.html">Carts</a></li>
+                    <li><a href="About_Us.html">About Us</a></li>
+                    <li><a href="Parts_Accessories.html">Parts and Accessories</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button>&rarr;</button>
+                </div>
+
+                <div class="footer-social">
+                    <div class="icon">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 RayvenX Motorcycles. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        const cartItemsContainer = document.querySelector('.cart-items');
+        const subtotalEl = document.getElementById('subtotal');
+        const taxEl = document.getElementById('tax');
+        const totalEl = document.getElementById('total');
+
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // Function to calculate totals
+        function calculateTotals() {
+            let subtotal = cart.reduce((acc, item) => acc + item.price, 0);
+            let tax = subtotal * 0.05; // 5% tax
+            let total = subtotal + tax;
+
+            subtotalEl.textContent = `$${subtotal.toLocaleString()}`;
+            taxEl.textContent = `$${tax.toLocaleString()}`;
+            totalEl.textContent = `$${total.toLocaleString()}`;
+        }
+
+        // Function to render the cart
+        function renderCart() {
+            cartItemsContainer.innerHTML = '';
+
+            if (cart.length === 0) {
+                document.getElementById('empty-cart').style.display = 'block';
+                calculateTotals();
+                return;
+            } else {
+                document.getElementById('empty-cart').style.display = 'none';
+            }
+
+            cart.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.classList.add('cart-item');
+
+                div.innerHTML = `
+            <img src="${item.imgSrc}" alt="${item.name}">
+            <div class="item-info">
+                <h5>${item.name}</h5>
+                <p>${item.meta}</p>
+                <p>$${item.price.toLocaleString()}</p>
+            </div>
+            <button class="remove-btn" data-index="${index}">Remove</button>
+        `;
+
+                cartItemsContainer.appendChild(div);
+            });
+
+            // Remove item functionality
+            const removeButtons = document.querySelectorAll('.remove-btn');
+            removeButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const idx = this.getAttribute('data-index');
+                    cart.splice(idx, 1);
+                    localStorage.setItem('cart', JSON.stringify(cart));
+                    renderCart();
+                });
+            });
+
+            calculateTotals();
+        }
+
+        // Initial render
+        renderCart();
+    </script>
+
+</body>
+
+</html>

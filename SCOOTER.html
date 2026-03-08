@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Stylesheet.css">
+    <link rel="stylesheet" href="./boostrap/icons/font/bootstrap-icons.css">
+    <meta name="description"
+        content="RayvenX – Myanmar’s No.1 motorcycle dealership for BMW, KTM, Kawasaki, Yamaha. Test rides and premium bikes.">
+    <meta name="keywords" content="Motorcycles Myanmar, BMW Bikes, KTM Myanmar, Kawasaki Bikes">
+    <link rel="preload" as="image" href="./Images/KTM 2090 super dukes.jpg">
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./Images/1.png" alt="RayvenX" height="40">
+            </a>
+
+            <!-- Hamburger Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <!-- Search -->
+                 <form class="d-flex mx-auto my-2 my-lg-0 search-box">
+                    <div class="search-wrapper">
+                        <input class="form-control me-2" id="searchinput" type="search" placeholder="Search bikes">
+                        <div id="suggestions"></div>
+                    </div>
+                </form>
+                <p id="noresult" style="display:none; color:red; text-align:center;">No bikes found!</p>
+
+                <!-- Right Icons -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-geo-alt"></i> Dealer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-door-open"></i> Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-cart-check"></i> Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+       <nav class="navbar-bottom">
+
+            <ul class="menu">
+                <li><a href="index.html"><i class="bi bi-house"></i><span>Home</span></a></li>
+
+                <li class="dropdown">
+                    <a href="#"><i class="bi bi-grid"></i><span>Garage</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="YAHAMA_page.html">YAHAMA</a></li>
+                        <li><a href="BMW_page.html">BMW</a></li>
+                        <li><a href="KAWASAKI_page.html">KAWASAKI</a></li>
+                        <li><a href="ROYAL_page.html">ROYAL</a></li>
+                        <li><a href="KTM_page.html">KTM</a></li>
+                        <li><a href="SUZUKI_page.html">SUZUKI</a></li>
+                        <hr>
+                        <li><a href="Garage.html">ViewAll</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="About_Us.html"><i class="bi bi-headset"></i><span>Contact</span></a></li>
+                <li><a href="Cart.html"><i class="bi bi-cart"></i><span>Cart</span></a></li>
+                <li><a href="Parts_Accessories.html"><i class="bi bi-gear"></i><span>Parts</span></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- Header -->
+
+    <section class="category-hero">
+        <img src="./Images/Scooter.jpg" alt="Scooters">
+
+        <div class="hero-content">
+            <h1>SCOOTER</h1>
+            <p>Smart mobility for everyday freedom</p>
+            
+        </div>
+    </section>
+    <br><br><br>
+    <div class="container-fluid products-wrapper">
+        <div class="row">
+
+            <!-- LEFT FILTER -->
+            <div class="yamaha-filter-bar">
+                <a href="Garage.html" class="active">All</a>
+                <a href="SUPERSPORTS.html">Supersport</a>
+                <a href="HYPER_NAKED.html">Hyper Naked</a>
+                <a href="Royal_adventure.html">Adventure</a>
+                <a href="#">Scooter</a>
+                <a href="OFF-road.html">Off-Road</a>
+            </div>
+
+
+
+            <!-- PRODUCT GRID -->
+            <div class="container-fluid yamaha-products">
+                <h2 class="section-title">SCOOTER</h2>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // BMW</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/BMW C 400 GT.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>BMW C 400 GT</h5>
+                            <p class="price">$25,215 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // YAHAMA</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/TMAX Tech MAX.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>TMAX Tech MAX</h5>
+                            <p class="price">$29,499 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // YAHAMA</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/D'elight 125.jpg" loading="lazy" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>D'elight 125</h5>
+                            <p class="price">$23,600 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+
+                    <!-- CARD -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bike-card">
+                            <span class="bike-meta">2025 // BMW</span>
+
+                            <div class="bike-image">
+                                <img src="./Images/BMW CE 04.jpg" alt="Tenere 700">
+                            </div>
+
+                            <hr>
+
+                            <h5>BMW CE 04</h5>
+                            <p class="price">$22,499 <small>USD (MSRP)</small></p>
+
+                            <a href="bike-detail.html" class="explore-btn">BUY</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="backtotop">
+        <a href="#"> Back To Top </a>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- Brand -->
+            <div class="footer-box">
+                <h2 class="footer-logo">RayvenX</h2>
+                <p>
+                    RayvenX is Myanmar’s trusted motorcycle dealership.
+                    Discover premium bikes, test rides, and a riding lifestyle
+                    built for true enthusiasts.
+                </p>
+            </div>
+
+            <!-- Office -->
+            <div class="footer-box">
+                <h3>Office</h3>
+                <p>
+                    ITPL Road<br>
+                    Yangon, Myanmar<br>
+                    info@rayvenx.com
+                </p>
+                <p class="footer-contact">+95 123 456 789</p>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-box">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Garage.html">Bikes</a></li>
+                    <li><a href="Cart.html">Carts</a></li>
+                    <li><a href="About_Us.html">About Us</a></li>
+                    <li><a href="Parts_Accessories.html">Parts and Accessories</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter your email">
+                    <button>&rarr;</button>
+                </div>
+
+                <div class="footer-social">
+                    <div class="icon">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 RayvenX Motorcycles. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <!-- footer -->
+
+            
+       
+
+   <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom search script -->
+    <script>
+       const searchInput = document.getElementById("searchinput");
+        const bikes = document.querySelectorAll(".yamaha-products .col-lg-4");
+        const suggestionBox = document.getElementById("suggestions");
+        const noResult = document.getElementById("noresult");
+
+        searchInput.addEventListener("keyup", function () {
+            const filter = searchInput.value.toLowerCase().trim();
+            suggestionBox.innerHTML = "";
+            suggestionBox.style.display = "none";
+            let visibleCount = 0;
+
+            bikes.forEach(function (bike) {
+                const name = bike.querySelector(".bike-card h5").textContent.toLowerCase().trim();
+                const brand = bike.querySelector(".bike-card .bike-meta").textContent.toLowerCase().trim();
+
+                if (name.includes(filter) || brand.includes(filter)) {
+                    bike.classList.remove("hidden");
+                    visibleCount++;
+
+                    if (filter !== "") {
+                        const div = document.createElement("div");
+                        div.classList.add("suggestion-item");
+                        div.textContent = bike.querySelector("h5").textContent.trim();
+
+                        div.addEventListener("mousedown", function (e) {
+                            e.preventDefault(); // prevent blur
+                            searchInput.value = div.textContent;
+                            suggestionBox.innerHTML = "";
+                            suggestionBox.style.display = "none";
+
+                            bikes.forEach(function (b) {
+                                const bikeName = b.querySelector("h5").textContent.toLowerCase().trim();
+                                if (bikeName.includes(div.textContent.toLowerCase().trim())) {
+                                    b.classList.remove("hidden");
+                                } else {
+                                    b.classList.add("hidden");
+                                }
+                            });
+                        });
+
+                        suggestionBox.appendChild(div);
+                        suggestionBox.style.display = "block";
+                    }
+                } else {
+                    bike.classList.add("hidden");
+                }
+            });
+
+            noResult.style.display = visibleCount === 0 ? "block" : "none";
+        });
+
+        // Close suggestions when clicking outside
+        document.addEventListener("click", function (e) {
+            if (!e.target.closest(".search-box")) {
+                suggestionBox.innerHTML = "";
+                suggestionBox.style.display = "none";
+            }
+        });
+
+        const buyButtons = document.querySelectorAll('.explore-btn');
+
+        buyButtons.forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                e.preventDefault(); // Prevent default link behavior
+
+                const bikeCard = btn.closest('.bike-card');
+                const name = bikeCard.querySelector('h5').textContent;
+                const meta = bikeCard.querySelector('.bike-meta').textContent;
+                const priceText = bikeCard.querySelector('.price').textContent.replace(/[^0-9.]/g, '');
+                const price = parseFloat(priceText);
+                const imgSrc = bikeCard.querySelector('img').getAttribute('src');
+
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                cart.push({ name, meta, price, imgSrc });
+                localStorage.setItem('cart', JSON.stringify(cart));
+
+                // Create notification element
+                let notification = document.createElement('div');
+                notification.textContent = '✅ Your bike is now in the cart!';
+                notification.style.position = 'fixed';
+                notification.style.bottom = '20px';
+                notification.style.right = '20px';
+                notification.style.padding = '15px 25px';
+                notification.style.background = '#28a745';
+                notification.style.color = 'white';
+                notification.style.fontWeight = '700';
+                notification.style.borderRadius = '8px';
+                notification.style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
+                notification.style.zIndex = '9999';
+                notification.style.opacity = '0';
+                notification.style.transition = 'opacity 0.5s';
+
+                document.body.appendChild(notification);
+
+                // Fade in
+                setTimeout(() => {
+                    notification.style.opacity = '1';
+                }, 50);
+
+                // Fade out and remove after 2.5 seconds
+                setTimeout(() => {
+                    notification.style.opacity = '0';
+                    setTimeout(() => notification.remove(), 500);
+                }, 2500);
+            });
+        });
+    </script>
+</body>
+
+</html>
